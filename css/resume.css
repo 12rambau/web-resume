@@ -5,8 +5,8 @@
  */
 
  :root {
-  --main-bg-color: #1c4612;
-  --link: #33811f;
+  --main-bg-color: #146101;
+  --link: rgb(197, 1, 1);
 }
 
 body {
@@ -76,16 +76,104 @@ p.lead {
   margin-right: 0;
 }
 
-.social-icons a:hover {
-  background-color: var(--main-bg-color);
+#linkedin:hover {
+  background-color: #2867B2;
+}
+
+#github:hover {
+  background-color: #333;
+}
+
+#twitter:hover {
+  background-color: #1DA1F2;
+}
+
+#facebook:hover {
+  background-color: #4267B2;
+}
+
+#stackoverflow:hover {
+  background-color: #F48024;
+}
+
+#gis:hover {
+  background-color: #205296;
 }
 
 .dev-icons {
   font-size: 3rem;
 }
 
-.dev-icons .list-inline-item i:hover {
-  color: var(--main-bg-color);
+.fa-html5:hover {
+  color: #E34C26;
+}
+
+.fa-css3-alt:hover {
+  color: #264de4;
+}
+
+.fa-js-square:hover {
+  color: #F0DB4F;
+}
+
+.fa-node-js:hover {
+  color: #68A063;
+}
+
+.fa-sass:hover {
+  color: #c69;
+}
+
+.fa-less:hover {
+  color: rgb(42, 57, 92);
+}
+
+.fa-wordpress:hover {
+  color: #00749C;
+}
+						
+.fa-npm:hover {
+  color: rgb(175, 59, 58);
+}
+
+.fa-php:hover {
+  color: #474A8A;
+}
+
+.fa-python:hover {
+  color: #4B8BBE;
+}
+
+.fa-docker:hover {
+  color: #0db7ed;
+}
+
+.fa-symfony:hover {
+  color: #000;
+}
+
+.fa-swift:hover {
+  color: #F05138;
+}
+
+.fa-android:hover {
+  color: #3DDC84;
+}
+
+.fa-microsoft:hover {
+  color: #737373;
+}
+
+.fa-apple:hover {
+  color: #000;
+}
+
+.fa-linux:hover {
+  color: #003366;
+}
+
+.fa-git-alt:hover {
+  color: #F1502F;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
