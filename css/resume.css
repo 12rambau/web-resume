@@ -269,3 +269,8 @@ a {
 a:hover, a:focus, a:active {
   color: var(--link);
 }
+
+/*overwrite codersrank colors to align with the web résumé*/
+.codersrank-summary-head {
+  background-color: var(--main-bg-color)
+}
