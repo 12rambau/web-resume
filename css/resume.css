@@ -4,13 +4,15 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
- :root {
+:root {
   --main-bg-color: #146101;
   --link: rgb(197, 1, 1);
 }
 
 body {
-  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
   text-align: justify;
   text-justify: inter-word;
   padding-top: 54px;
@@ -30,7 +32,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
@@ -57,7 +61,9 @@ p.lead {
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.5rem;
 }
 
@@ -79,7 +85,7 @@ p.lead {
 }
 
 #linkedin:hover {
-  background-color: #2867B2;
+  background-color: #2867b2;
 }
 
 #github:hover {
@@ -87,15 +93,15 @@ p.lead {
 }
 
 #twitter:hover {
-  background-color: #1DA1F2;
+  background-color: #1da1f2;
 }
 
 #facebook:hover {
-  background-color: #4267B2;
+  background-color: #4267b2;
 }
 
 #stackoverflow:hover {
-  background-color: #F48024;
+  background-color: #f48024;
 }
 
 #gis:hover {
@@ -107,7 +113,7 @@ p.lead {
 }
 
 .fa-html5:hover {
-  color: #E34C26;
+  color: #e34c26;
 }
 
 .fa-css3-alt:hover {
@@ -115,11 +121,11 @@ p.lead {
 }
 
 .fa-js-square:hover {
-  color: #F0DB4F;
+  color: #f0db4f;
 }
 
 .fa-node-js:hover {
-  color: #68A063;
+  color: #68a063;
 }
 
 .fa-sass:hover {
@@ -131,19 +137,19 @@ p.lead {
 }
 
 .fa-wordpress:hover {
-  color: #00749C;
+  color: #00749c;
 }
-						
+
 .fa-npm:hover {
   color: rgb(175, 59, 58);
 }
 
 .fa-php:hover {
-  color: #474A8A;
+  color: #474a8a;
 }
 
 .fa-python:hover {
-  color: #4B8BBE;
+  color: #4b8bbe;
 }
 
 .fa-docker:hover {
@@ -155,11 +161,11 @@ p.lead {
 }
 
 .fa-swift:hover {
-  color: #F05138;
+  color: #f05138;
 }
 
 .fa-android:hover {
-  color: #3DDC84;
+  color: #3ddc84;
 }
 
 .fa-microsoft:hover {
@@ -175,7 +181,7 @@ p.lead {
 }
 
 .fa-git-alt:hover {
-  color: #F1502F;
+  color: #f1502f;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -266,11 +272,13 @@ a {
   color: var(--main-bg-color);
 }
 
-a:hover, a:focus, a:active {
+a:hover,
+a:focus,
+a:active {
   color: var(--link);
 }
 
 /*overwrite codersrank colors to align with the web résumé*/
 .codersrank-summary-head {
-  background-color: var(--main-bg-color)
+  background-color: var(--main-bg-color);
 }
